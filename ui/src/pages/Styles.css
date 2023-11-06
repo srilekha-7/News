@@ -1,0 +1,18 @@
+.home-container{
+    background-image: url(../images/news_img.avif);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.auth-form{
+    background-color: white;
+    border-radius: 20px;
+    width: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid  rgba(232, 18, 18, 0.963);
+}
