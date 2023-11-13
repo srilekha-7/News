@@ -18,8 +18,9 @@ function Container(props) {
       {view ? (
         <div className="article-container">
           {primaryData.map((eachData) => (
-            <div key={eachData.urlToImage} className="article-card">
+            <div key={eachData.title} className="article-card">
               <img src={eachData.urlToImage} className="image" alt="" />
+
               <h2
                 style={{
                   color: "rgba(41, 2, 2, 0.963)",
@@ -88,7 +89,7 @@ function Container(props) {
       ) : (
         <div className="article-container">
           {primaryData.map((eachData) => (
-            <div key={eachData.urlToImage} className="article-card2">
+            <div key={eachData.title} className="article-card2">
               <img src={eachData.urlToImage} className="image2" alt="" />
               <div
                 style={{
