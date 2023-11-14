@@ -75,8 +75,12 @@ function Container(props) {
                           enjoy more services
                         </p>
                         <div>
-                          <button className="button">Log In</button>
-                          <button className="button">Register</button>
+                          <Link to="/login">
+                            <button className="button">Log In</button>
+                          </Link>
+                          <Link to="/register">
+                            <button className="button">Register</button>
+                          </Link>
                         </div>
                       </div>
                     )}
@@ -159,8 +163,12 @@ function Container(props) {
                             to enjoy more services
                           </p>
                           <div>
-                            <button className="button">Log In</button>
-                            <button className="button">Register</button>
+                            <Link to="/login">
+                              <button className="button">Log In</button>
+                            </Link>
+                            <Link to="/register">
+                              <button className="button">Register</button>
+                            </Link>
                           </div>
                         </div>
                       )}
