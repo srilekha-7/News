@@ -32,7 +32,7 @@ function ProfileContainer(props) {
         <div className="article-container">
           {savedArticles.map((eachData) => (
             <div key={eachData.title} className="article-card">
-              <img src={eachData.urlToImage} className="image" alt="" />
+              <img src={eachData.img} className="image" alt="" />
               <h2
                 style={{
                   color: "rgba(41, 2, 2, 0.963)",
